@@ -1,0 +1,62 @@
+.todoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.todo-title {
+  text-align: center;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.inputContainer input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.inputContainer button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todoList {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0px;
+}
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todoItem.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+}
+.buttonGroup button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
