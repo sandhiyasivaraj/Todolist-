@@ -6,7 +6,7 @@ A simple **React + Vite** application to manage daily tasks. This guide explains
 
 ## ⚡ Prerequisites
 
-- **Node.js** v18+ (includes npm)
+- **Node.js** v18+ (includes npm v9+)
 - **Git**
 
 _For Docker-based development (optional):_
@@ -64,7 +64,7 @@ The project supports Dockerized development with **live reload** so your local c
 
 ```dockerfile
 # Use Node.js lightweight image
-FROM node:18-alpine
+FROM node:20
 
 # Set working directory inside container
 WORKDIR /app
